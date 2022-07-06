@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#nav {
+    display: flex;
+    justify-content: center;
+}
+
+#nav>img {
+    margin-top: 58px;
+    height: 56px;
+    width: 113px;
+}
+
+#main {
+    height: 753px;
+    width: 428px;
+    left: 0px;
+    top: 132px;
+    background: #FFAF3A;
+    border-radius: 20px 20px 0px 0px;
+    margin-top: auto;
+
+}
+
+#footer {
+    height: 41px;
+    width: 428px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
