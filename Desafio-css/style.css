@@ -21,7 +21,8 @@ body {
     width: 113px;
 }
 
-p {
+h1 {
+    margin-top: 46px;
     font-family: Inter;
     font-size: 22px;
     font-weight: 700;
