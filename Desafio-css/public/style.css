@@ -6,7 +6,7 @@
 
 body {
     height: 100%;
-    width:100%;
+    width: 100%;
 }
 
 
@@ -15,7 +15,7 @@ body {
     justify-content: center;
     background-color: white;
     width: 100%;
-    
+
 }
 
 #header>img {
@@ -36,8 +36,9 @@ h1 {
     width: 176px;
     margin-bottom: 10px;
 }
+
 .container {
-    
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -53,12 +54,13 @@ h1 {
     min-height: 754px;
     width: 100vw;
     border-radius: 20px 20px 0px 0px;
-    
+
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-#conteudo{
+
+#conteudo {
     background-color: #FFAF3A;
     border-radius: 20px 20px 0px 0px;
     margin-top: 10px;
@@ -73,7 +75,7 @@ h1 {
     background: #FFFFFF;
     box-shadow: inset 2px 2px 1em rgba(0, 0, 0, 0.2);
     border-radius: 10px;
-    border:solid #ecdbdb;
+    border: solid #ecdbdb;
 }
 
 #input::placeholder {
@@ -122,10 +124,12 @@ li {
     margin: 10px 24px 0 24px;
     border-bottom: 1px solid rgb(48, 34, 34, .2);
 }
-li:first-child{
+
+li:first-child {
     margin-top: 44px;
 }
-li:last-child{
+
+li:last-child {
     margin-bottom: 28px;
 }
 
@@ -194,54 +198,110 @@ li>a {
     margin: 0 2px 0 0;
 }
 
-#promocional{
+#promocional {
     display: none;
     background-color: #FFAF3A;
 }
 
 @media (min-width: 480px) {
-    #promocional{
+    #promocional {
+        width: 100%;
         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        gap: 20px;
+    }
+
+    #video {
+        gap: 10px;
+        width: 364px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    h4{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 16px;
+    }
+    #video>iframe {
+        width: 100%;
+        height: 204px;
+    }
+
+    #text {
+        margin-bottom: 20px;
     }
 }
 
 @media (min-width: 768px) {
-    #promocional{
-        width: 30%;
+
+    h1 {
+        font-size: 34px;
+        width: 300px;
+        height: 34px;
+        text-align: center;
+    }
+
+    #promocional {
+        gap: 05%;
+        width: 28%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    #video{
-        background-color: #302222;
-        width: 70%;
+
+    #video {
+        width: 100%;
+        height: 34%;
     }
-    #conteudo{
+
+    #video>iframe {
+        width: 90%;
+        height: 100%;
+    }
+
+    #propaganda {
+        width: 100%;
+    }
+
+    #propaganda>img {
+        width: 90%;
+    }
+
+    #conteudo {
         display: flex;
         flex-direction: row;
     }
-    #main{
+
+    #main {
         width: 70%;
     }
-    
-    #input{
-        width: 500px;
+
+    form {
+        width: 100%;
     }
 
-    ul{
-        width: 500px;
-    }
-    #text{
-        width: 450px;
+    #input {
+        width: 80%;
     }
 
-    #footer{
-        gap:20vw;
+    ul {
+        width: 80%;
     }
 
-    #propaganda{
-        background-color: aqua;
-        width: 200px    ;
+    #text {
+        width: 75%;
+        margin-bottom: 30px;
     }
+
+    #footer {
+        gap: 20vw;
+    }
+
 }
